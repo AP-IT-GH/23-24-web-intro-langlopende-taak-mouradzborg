@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Onze Diensten - NetwerkVigilant</title>
+    <style>
+        .service-container {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-decoration: none; /* Removes underline from links */
+            color: inherit; /* Inherits text color from parent */
+            background-color: #fff; /* White background */
+        }
+        .service-header {
+            color: #007bff;
+        }
+        .service-image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        /* Voeg hier aanvullende aangepaste stijlen toe */
+    </style>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-custom-1">
+        <a class="navbar-brand" href="index.html">
+            <img src="image.png" alt="NetwerkVigilant Logo" style="height: 50px;"> NetwerkVigilant
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Diensten
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <a class="dropdown-item" href="dienst1.html">Dreigingsdetectie en -preventie</a>
+                        <a class="dropdown-item" href="dienst2.html">Firewall Activiteit</a>
+                        <a class="dropdown-item" href="dienst3.html">Ping Response Time</a>
+                        <a class="dropdown-item" href="dienst4.html">Up/Down Status Checker</a>
+                        <a class="dropdown-item" href="dienst5.html">Dagelijkse Uptime Grafiek</a>
+                        <a class="dropdown-item" href="dienst6.html">Netwerk Snelheid Checker</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row">
+          
+            <div class="col-md-4">
+                <a href="dienst1.html" class="service-container">
+                    <img src="placeholder-image.jpg" alt="Dreigingsdetectie en -preventie" class="service-image">
+                    <h3 class="service-header">Dreigingsdetectie en -preventie</h3>
+                    <p>Integratie van geavanceerde beveiligingsinformatie voor het detecteren van netwerkdreigingen.</p>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="dienst2.html" class="service-container">
+                    <img src="placeholder-image.jpg" alt="Firewall Activiteit" class="service-image">
+                    <h3 class="service-header">Firewall Activiteit</h3>
+                    <p>Bewaakt activiteit van firewalls en identificeert verdachte netwerkpatronen.</p>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="dienst3.html" class="service-container">
+                    <img src="placeholder-image.jpg" alt="Ping Response Time" class="service-image">
+                    <h3 class="service-header">Ping Response Time</h3>
+                    <p>Biedt inzicht in responstijden van pings voor real-time prestatiebeheer.</p>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="dienst4.html" class="service-container">
+                    <img src="placeholder-image.jpg" alt="Up/Down Status Checker" class="service-image">
+                    <h3 class="service-header">Up/Down Status Checker</h3>
+                    <p>Visuele weergave van online en offline status van netwerkapparaten.</p>
+                </a>
+            </div>
+           
+            <div class="col-md-4">
+                <a href="dienst5.html" class="service-container">
+                    <img src="placeholder-image.jpg" alt="Dagelijkse Uptime Grafiek" class="service-image">
+                    <h3 class="service-header">Dagelijkse Uptime Grafiek</h3>
+                    <p>Grafiek die de dagelijkse uptime van het netwerk toont voor trendanalyse.</p>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="dienst6.html" class="service-container">
+                    <img src="placeholder-image.jpg" alt="Netwerk Snelheid Checker" class="service-image">
+                    <h3 class="service-header">Netwerk Snelheid Checker</h3>
+                    <p>Meet real-time upload- en downloadsnelheden van het netwerk.</p>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer bg-light text-center py-3">
+        <p>© 2024 NetwerkVigilant</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Contacteer NetwerkVigilant</title>
+    <style>
+        body {
+            padding-top: 20px;
+            background-color: #f8f9fa;
+        }
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .form-container h2 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-custom-1">
+        <a class="navbar-brand" href="index.html">
+            <img src="image.png" alt="NetwerkVigilant Logo" style="height: 50px;"> NetwerkVigilant
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Diensten
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <a class="dropdown-item" href="dienst1.html">Dreigingsdetectie en -preventie</a>
+                        <a class="dropdown-item" href="dienst2.html">Firewall Activiteit</a>
+                        <a class="dropdown-item" href="dienst3.html">Ping Response Time</a>
+                        <a class="dropdown-item" href="dienst4.html">Up/Down Status Checker</a>
+                        <a class="dropdown-item" href="dienst5.html">Dagelijkse Uptime Grafiek</a>
+                        <a class="dropdown-item" href="dienst6.html">Netwerk Snelheid Checker</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 form-container">
+                <h2>Contacteer Ons</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Naam</label>
+                        <input type="text" class="form-control" id="name" placeholder="Uw naam">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Uw email">
+                    </div>
+                    <label for="contactChoice">Wie wilt u contacteren?</label>
+                    <select class="form-control mb-3" id="contactChoice">
+                        <option>Admin</option>
+                        <option>Webdesigner</option>
+                    </select>
+                    
+                    <label for="message">Uw bericht:</label>
+                    <textarea class="form-control mb-3" id="message" rows="4"></textarea>
+                    
+                    <button type="submit" class="btn btn-primary">Verstuur</button>
+                    <h2>Onze Locatie</h2>
+                
+                    <img src="antwerp-map.jpg" alt="Kaart van Antwerpen" style="width: 100%; height: auto;" class="my-3">
+                
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bg-light text-center py-3">
+        <p>© 2024 NetwerkVigilant</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
